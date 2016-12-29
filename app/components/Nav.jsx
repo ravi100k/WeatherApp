@@ -5,7 +5,7 @@ var Nav = React.createClass({
 
   onSearch:function (e) {
     e.preventDefault();
-    alert("not yet ready");
+    alert("Work Under Progress!");
 
   },
 
@@ -32,7 +32,7 @@ var Nav = React.createClass({
           <form onSubmit={this.onSearch}>
             <ul className="menu">
               <li>
-                <input type="search" placeholder="Seach.."/>
+                <input type="search" placeholder="Seach Weather By City Name!"/>
               </li>
               <li>
                 <input type="submit" className="button" value="Get Weather"/>

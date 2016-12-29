@@ -13,7 +13,7 @@ var React = require('react');
 var About =(props) => {
   return(
     <div>
-      <h3 className="text-center">About!</h3>
+      <h2 className="text-center page-title">About!</h2>
       <hr></hr>
       <p>This is a weather application build on React. I have built this for the weather checking </p>
       <p>Here are some of the tools i used:</p>
@@ -25,8 +25,7 @@ var About =(props) => {
             <a href="https://openWeathermap.org">Open Weather Map</a> - I used open weather map to search for weather data by city name.
             </li>
           </ul>
-
-          <h6>Created By Ravi Chaudhary With Love</h6>
+          <h6>Created By Ravi Chaudhary</h6>
         </div>
       );
 

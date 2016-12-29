@@ -15,7 +15,7 @@ var WeatherMessage =({location, temp}) =>
 {
   return(
     <div>
-      <h4>It's {temp} Degree Celcius in {location}</h4>
+      <h3 className="text-center">It's {temp} Degree Celcius in {location}</h3>
     </div>
   );
 }
